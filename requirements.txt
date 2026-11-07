@@ -1,10 +1,22 @@
-ultralytics>=8.2.0
-torch>=2.1.0
-torchvision>=0.16.0
-opencv-python>=4.8.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-pandas>=2.0.0
-tqdm>=4.65.0
-grad-cam>=1.5.0
-pymupdf>=1.23.0
+# PyTorch dan Computer Vision
+# Catatan: Instalasi torch disarankan melalui perintah spesifik CUDA terlebih dahulu
+torch>=1.13.0
+torchvision>=0.14.0
+opencv-python>=4.1.1
+Pillow>=7.1.2
+
+# Matematika, Data, dan Evaluasi
+numpy>=1.18.5
+pandas>=1.1.4
+scipy>=1.4.1
+ultralytics>=8.0.0  # Digunakan untuk evaluation engine (mAP, Precision, Recall)
+
+# Plotting dan XAI (EigenCAM)
+matplotlib>=3.2.2
+seaborn>=0.11.0
+
+# Utilitas
+PyYAML>=5.3.1
+tqdm>=4.64.0
+psutil
+requests>=2.23.0
