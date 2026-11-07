@@ -54,8 +54,8 @@ Follow these steps to set up the project environment locally. Ensure you have a 
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/your-username/your-repo-name.git](https://github.com/BryanValleryan/PPE-Compliance-Detection
+   cd PPE-Compliance-Detection
    ```
 
 2. **Create a Virtual Environment (Optional but recommended):**
@@ -84,34 +84,6 @@ Follow these steps to set up the project environment locally. Ensure you have a 
 5. **Download Pre-trained Weights (Optional):**
    Download the pre-trained YOLOv9-c model for fine-tuning or use the weights resulting from this project's training (save them in the `weights/` folder).
 
-## 📦 Requirements (`requirements.txt`)
-
-Create a file named `requirements.txt` in your project's root directory and populate it with the following lines. These dependencies are tailored for YOLOv9 and the Ultralytics evaluation engine mentioned in the paper:
-
-```text
-# PyTorch and Computer Vision
-# Note: It is recommended to install torch via CUDA-specific commands first
-torch>=1.13.0
-torchvision>=0.14.0
-opencv-python>=4.1.1
-Pillow>=7.1.2
-
-# Math, Data, and Evaluation
-numpy>=1.18.5
-pandas>=1.1.4
-scipy>=1.4.1
-ultralytics>=8.0.0  # Used for the evaluation engine (mAP, Precision, Recall)
-
-# Plotting and XAI (EigenCAM)
-matplotlib>=3.2.2
-seaborn>=0.11.0
-
-# Utilities
-PyYAML>=5.3.1
-tqdm>=4.64.0
-psutil
-requests>=2.23.0
-```
 
 ## 👥 Project Contributors
 
